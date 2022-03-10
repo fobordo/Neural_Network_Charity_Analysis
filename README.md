@@ -44,15 +44,15 @@ The dataset contained more than 34,000 organizations that had received funding f
 The following number of neurons, layers, and activation functions were used for the neural network model:
 - First hidden layer
     - Number of neurons: 80
-    - Activation function: relu
+    - Activation function: `relu`
 - Second hidden layer
     - Number of neurons: 30
-    - Activation function: relu
+    - Activation function: `relu`
 - Third hidden layer
     - Number of neurons: 20
-    - Activation function: relu
+    - Activation function: `relu`
 - Ouput layer
-    - Activation function: tanh
+    - Activation function: `tanh`
 
 A total of 130 neurons were used across three hidden layers because it is a good rule of thumb for a basic neural network to have 2-3 times the amount of neurons in the hidden layer as the number of inputs (in this case, 44). The third hidden layer was added after trial and error demonstrating that the third layer increased the accuracy of the model. The output layer activation function was changed from `sigmoid` to `tanh` after similarly performing trial and error, and obtaining a higher accuracy score with the use of the `tanh` function.
 
