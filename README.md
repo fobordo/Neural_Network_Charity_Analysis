@@ -8,15 +8,15 @@
 - The `IS_SUCCESSFUL` variable was considered the target for the model because it indicated whether or not applicants were successful after getting funded by Alphabet Soup.
 #### What variable(s) are considered to be the features for your model?
 - All of the other variables in the dataset were considered the features of the model because they are factors for the model to consider when determining whether or not applicants were successful after getting funded by Alphabet Soup. These variables included:
-1. `APPLICATION_TYPE`
-2. `AFFILIATION`
-3. `CLASSIFICATION`
-4. `USE_CASE`
-5. `ORGANIZATION`
-6. `STATUS`
-7. `INCOME_AMT`
-8. `SPECIAL_CONSIDERATIONS`
-9. `ASK_AMT`
+    - `APPLICATION_TYPE`
+    - `AFFILIATION`
+    - `CLASSIFICATION`
+    - `USE_CASE`
+    - `ORGANIZATION`
+    - `STATUS`
+    - `INCOME_AMT`
+    - `SPECIAL_CONSIDERATIONS`
+    - `ASK_AMT`
 #### What variable(s) are neither targets nor features, and should be removed from the input data?
 
 ### Compiling, Training, and Evaluating the Model
