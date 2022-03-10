@@ -66,7 +66,7 @@ The follow steps were taken to try and increase model performance:
 3. The activation function of the output layer was changed from `sigmoid` to `tanh`. This change was made in order to perform trial and error on the model to see if the `tanh` activation function would increase the accuracy of the model, which it did.
 
 ## Summary
-Ultimately, the deep learning model achieved an accuracy score of 0.627, meaning the model was able to correctly identify applicants that would be successful if funded by Alphabet Soup approximately 63% of the time. 
+Ultimately, the deep learning model achieved an accuracy score of 0.648, meaning the model was able to correctly identify applicants that would be successful if funded by Alphabet Soup approximately 65% of the time. 
 
 ![Accuracy Score](/Resources/accuracy_score.png)
 
